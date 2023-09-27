@@ -1,53 +1,3 @@
-// window.addEventListener('load', function(e) {
-// const memeImage = document.querySelector('#meme-image');
-
-// memeImage.addEventListener('change', function(e) {
-//     const selectedOption = e.currentTarget.options[e.currentTarget.options.selectedIndex];
-
-//     // select image
-//     const selectedImage = document.querySelector('.meme-display img');
-
-//     // update image
-//     if (selectedOption.value === "fry-meme") {
-//         selectedImage.src = "img/fry-meme.png";
-//     } else if (selectedOption.value === "one-does-not-simply-meme") {
-//         selectedImage.src = "img/one-does-not-simply-meme.png";
-//     } else if (selectedOption.value === "most-interesting-man-meme") {
-//         selectedImage.src = "img/most-interesting-man-meme.png";
-//     } else {
-//         selectedImage.src = "https://via.placeholder.com/550x300?text=Choose+an+image+from+the+dropdown";
-//     }
-
-
-//     e.preventDefault();
-// })
-
-//     const memeForm = document.querySelector('memeForm');
-
-//     memeForm.addEventListener('submit', function(e) {
-//         e.preventDefault();
-
-//         // select text input
-//         const topText = document.querySelector('#meme-top-text');
-//         const bottomText = document.querySelector('#meme-bottom-text');
-
-//         // select text Display
-//         const topTextDisplay = document.querySelector('.top-text');
-//         const bottomTextDisplay = document.querySelector('.bottom-text');
-
-//         topText.textContent = selectedOption.topTextDisplay;
-//         bottomText.textContent = selectedOption.bottomTextDisplay;
-
-//         console.log(selectedOption.topTextDisplay);
-
-//     })
-
-//     const newDisplay = function(topText, bottomText) {
-//         const template =
-//             ``
-//     }
-// })
-
 window.addEventListener('load', function(e) {
 
     const memeForm = document.forms['memeForm'];
@@ -124,5 +74,3 @@ window.addEventListener('load', function(e) {
 
 })
 
-// const errorMsg = document.querySelector('.error');
-//             errorMsg.innerHTML = "Oops! Please select a valid input"

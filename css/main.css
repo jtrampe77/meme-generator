@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 main {
     display: inline-grid;
     grid-gap: 1em;
@@ -88,4 +95,18 @@ main {
     grid-row: 1/4;
 
     z-index: -1;
+}
+
+@media screen and (max-width: 900px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
